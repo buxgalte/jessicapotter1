@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EFA45F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.container {
+    background-color: aliceblue;
+
+    display: flex;
+    justify-content: space-around;
+    column-gap: 100px;
+    align-items: center;
+    width: 1021px;
+    height: 669px;
+
+    margin: 82px 181px 51px 105px;
+
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+    height: 669px;
+    column-gap: 250px;
+}
+
+.left__image {
+    display: block;
+    text-align: center;
+}
+
+.img {
+    margin-top: 44px;
+}
+
+.h1-text {
+    color: #7C501B;
+    font-family: Inter;
+    font-size: 30.625px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 18px;
+}
+
+.text {
+    color: #7C501B;
+    font-family: Khula;
+    font-size: 22.5px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.btn-1d {
+    border-radius: 40px;
+    border: 10px solid #7C501B;
+    background: #7C4D15;
+    color: #FFF;
+    font-family: "Khula";
+    font-size: 34.02px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0px 82px;
+    text-transform: uppercase;
+    margin: 13px;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.btn-2d {
+    border-radius: 40px;
+    border: 10px solid #7C501B;
+    background: #7C4D15;
+    color: #FFF;
+    font-family: "Khula";
+    font-size: 34.02px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0px 82px;
+    text-transform: uppercase;
+    margin: 13px;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.cards {
+    display: block;
+    flex-direction: row;
+    justify-self: end;
+}
+
+.card {
+    width: 281px;
+    height: 207px;
+    flex-shrink: 0;
+    background: #FCEAD0;
+    padding: 11px;
+    text-align: center;
+    margin: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.son {
+    color: #000;
+    font-family: Khula;
+    font-size: 58.295px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+
+.text {
+    color: #000;
+    font-family: Khula;
+    font-size: 33.047px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.text-bio {
+    color: #7C501B;
+    font-family: Khula;
+    font-size: 22.5px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 30px;
+}
